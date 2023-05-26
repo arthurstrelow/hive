@@ -73,6 +73,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    padding-top: 10em;
     align-items: center;
   }
   
@@ -125,7 +126,81 @@ body {
     background-color: #ffffff;
     color: #0079d3;
   }
-
+  /* sidebar css */
+  .navbar {
+    background-color: #0079d3;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 2.8em;
+    left: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0079d3;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .sidebar-title {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .sidebar-toggle {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .main-content {
+    margin-left: 280px;
+    padding: 20px;
+  }
+  
+  /* responsivo */
+  @media (max-width: 768px) {
+    .sidebar {
+      transform: translateX(-100%);
+    }
+  
+    .main-content {
+      margin-left: 0;
+    }
+  
+    .sidebar-toggle {
+      display: block;
+    }
+  }
+  
   /* ---post  css */
 
   body {
@@ -245,3 +320,92 @@ body {
     color: #888888;
   }
   
+  /* Card imagem css */
+
+  .post {
+    display: flex;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .post-votos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .contagem-votos {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #888888;
+  }
+  
+  .upvote,
+  .downvote {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .upvote {
+    background-color: #ff4500;
+  }
+  
+  .downvote {
+    background-color: #0079d3;
+  }
+  
+  .post-conteudo {
+    flex-grow: 1;
+  }
+  
+  .post-titulo {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0079d3;
+  }
+  
+  .post-descricao {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  .post-midia {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .post-midia img,
+  .post-midia iframe {
+    max-width: 30vw;
+  }
+  
+  .post-rodape {
+    color: #888888;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-autor {
+    margin-right: 10px;
+    color: #0079d3;
+  }
+  
+  .post-comentarios::before {
+    content: "•";
+    margin: 0 5px;
+    color: #888888;
+  }
