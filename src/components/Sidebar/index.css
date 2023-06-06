@@ -1,0 +1,56 @@
+/* Sidebar CSS */
+  
+.sidebar {
+    position: sticky;
+    top: 65px;
+    left: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0079d3;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .sidebar-title {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .sidebar-toggle {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
