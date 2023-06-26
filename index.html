@@ -12,22 +12,27 @@
 <title>Hive</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark mb-4" style="background-color:#4CCB9E">
-        <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="logo" class="img-fluid" width="60" height="80"></a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#responsive"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="responsive">
-            <ul class="navbar-nav mr-auto text-capitalize">
-                <li class="nav-item"><a href="index.html" class="nav-link active">Página Principal</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Perfil</a></li>
-                <li class="nav-item"><a href="mensagens.html" class="nav-link">Mensagens</a></li>
-            </ul>
-            <form action="" class="form-inline ml-auto d-none d-md-block">
-                <input type="text" name="search" id="search" placeholder="Pesquisar" class="form-control form-control-sm">
-            </form>
-            <a href="#modalview" class="nav-link" data-toggle="modal" style="color:#CBE4F2;font-size:22px;"><i class="far fa-bell ml-3 d-none d-md-block"></i></a>
-            <img src="img/avatar-dhg.png" alt="" class="rounded-circle ml-3 d-none d-md-block" width="32px" height="32px">
+
+    <aside class="menu">
+        <div class=" menu-content">
+            <h1>
+                <a id="nome" href="#"">HIVE</a>
+            </h1>
+            <input type="text" name="message" id="psq" placeholder="Encontrar" >
+
+            <nav>
+                <ul>
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Publicar</a></li>
+                    <li><a href="#">Timeline</a></li>
+                    <li><a href="#">Sair</a></li>
+
+                    </ul>
+            </nav>
         </div>
-    </nav>
+    </aside>
+
+ <div class="conteudo">
     <div class="modal fade" id="modalview">
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
             <div class="modal-content">
@@ -195,6 +200,7 @@
 
     </div>
 
+</div>
     <!-------------------------------MOdal Ends---------------------------->
 
 
