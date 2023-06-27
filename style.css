@@ -155,8 +155,9 @@ margin-top: 14vh;
     width: 200px;
     height: 200px; 
     border-radius: 100px;
-
-
+}
+#coment{
+    padding-left: 15px;
 }
 
 /*--------------------------Grid template starts design for image gallery-----------------*/
