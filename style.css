@@ -122,6 +122,20 @@ margin-top: 16vh;
 .hover-media:hover{
     background-color: #F5F8FA;
 }
+
+#mencoes{
+    margin-top: 14vh;
+}
+
+#central{
+margin-top: 14vh;
+
+}
+
+#mensagens_id{
+    color: rgb(255, 149, 0);
+}
+
 /*--------------------------Grid template starts design for image gallery-----------------*/
 
 

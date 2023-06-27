@@ -14,34 +14,26 @@
 
     <!-------------------------------NAvigation Starts------------------>
 
-    <nav class="navbar navbar-expand-md navbar-dark" style="background-color:#4CCB9E">
-            <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="logo" class="img-fluid" width="60" height="80"></a>
-    
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#responsive"><span class="navbar-toggler-icon"></span></button>
-    
-    
-            <div class="collapse navbar-collapse" id="responsive">
-                <ul class="navbar-nav mr-auto text-capitalize">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Página Principal</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Perfil</a></li>
-                    <li class="nav-item"><a href="mensagens.html" class="nav-link active">Mensagens</a></li>
-                </ul>
-                <form action="" class="form-inline ml-auto d-none d-md-block">
-                    <input type="text" name="search" id="search" placeholder="Search" class="form-control form-control-sm">
-                </form>
-                <a href="#modalview" data-toggle="modal" class="nav-link" style="color:#CBE4F2;font-size:22px;"><i class="far fa-bell ml-3 d-none d-md-block"></i></a>
-                <img src="img/avatar-dhg.png" alt="" class="rounded-circle ml-3 d-none d-md-block" width="32px" height="32px">
-    
-    
-    
-    
-    
-            </div>
-    
-    
-    
-    
-        </nav>
+   
+    <aside class="menu">
+        <div class=" menu-content">
+            <h1>
+                <a id="nome"  href="#"">HIVE</a>
+            </h1>
+            <input type="text" name="message" id="psq" placeholder="Encontrar" >
+
+            <nav>
+                <ul>
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="index.html">Timeline</a></li>
+                    <li><a href="#"id="mensagens_id">Mensagens</a></li>
+                    <li><a href="#">Sair</a></li>
+
+                    </ul>
+            </nav>
+        </div>
+    </aside>
+
     
 
         <!---------------------------------------------Ends navigation------------------------------>
@@ -236,7 +228,7 @@
 
 
 <!-----------------------------------------(Satrt Left Column)------------------------------->
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-lg-3" id="mencoes">
 
 
                 <div class="left-column">
@@ -244,7 +236,7 @@
 
                     <div class="card mb-4 shadow-sm">
 
-                       <a href="#" class="text-decoration-none text-dark hover-media">
+                       <a href="#" class="text-decoration-none text-dark hover-media" >
                         <div class="card-body d-flex justify-content-between">
                      <span> Notificações</span>   <span><i class="fas fa-chevron-right"></i></span>
 
@@ -254,7 +246,7 @@
                     <hr class="m-0">
                         <a href="#" class="text-decoration-none text-dark hover-media">
 
-                        <div class="card-body d-flex justify-content-between">
+                        <div class="card-body d-flex justify-content-between" >
 
                             <span> Menções</span>   <span><i class="fas fa-chevron-right"></i></span>
 
@@ -265,7 +257,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6" id="central">
                 <div class="middle-column">
                     <div class="card shadow-sm">
                         <div class="card-header bg-transparent">
