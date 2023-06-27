@@ -136,6 +136,29 @@ margin-top: 14vh;
     color: rgb(255, 149, 0);
 }
 
+/*-------------------------parte do perfil-----------------*/
+
+#mid{
+    display: inline-block;
+
+    width: 82vw;
+}
+
+@media (max-width: 500px){
+#mid{
+    position: absolute;
+    left: 8vw;
+}
+}
+
+.foto_perfil{
+    width: 200px;
+    height: 200px; 
+    border-radius: 100px;
+
+
+}
+
 /*--------------------------Grid template starts design for image gallery-----------------*/
 
 
