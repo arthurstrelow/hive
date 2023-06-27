@@ -31,8 +31,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
+    padding-top: -1vh;
+    padding-bottom: -5vh;
 }
 
 #psq{
@@ -46,7 +46,7 @@ transition: all 300ms ease-in-out;
 #psq:hover{
     position: absolute;
     left: 36vw;
-    padding-right: 200px;
+    padding-right: 150px;
     border-radius: 10px;
     }
 
@@ -95,7 +95,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 
 .conteudo{
-margin-top: 16vh;
+margin-top: 12vh;
 }
 
 .banner{
