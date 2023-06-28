@@ -345,9 +345,9 @@
 
 
 
-                        
-                                
-                               
+
+
+
                             </form>
 
                         </div>
@@ -357,7 +357,7 @@
 
 
 
-                           
+
    <div class="card-body">
 
     <div class="media">
@@ -367,181 +367,67 @@
             <h5>Renato Araújo</h5>
             <p class="card-text text-justify">Pow é saindo aqui do IFPI e indo para o mercado de Fotografia, tenho futuro?</p>
 
-           
+
 
             <div class="row no-gutters mb-3">
                 <div class="col-6 p-1 text-center">
-
                         <a href="img/mulher_praia.jpg" data-lightbox="id"><img src="img/mulher_praia.jpg" alt="" class="img-fluid shadow-sm img-thumbnail"></a>
                         <a href="img/mulher-girassol.jpg" data-lightbox="id"><img src="img/mulher-girassol.jpg" alt="" class="img-fluid shadow-sm img-thumbnail"></a>
-            
-
                 </div>
-
                 <div class="col-6 p-1 text-center">
                     <a href="img/tumblrzinha.jpg" data-lightbox="id"><img src="img/tumblrzinha.jpg" alt="" class="img-fluid shadow-sm img-thumbnail"></a>
                     <a href="img/cachorro_chupetao.jpg" data-lightbox="id"><img src="img/cachorro_chupetao.jpg" alt="" class="img-fluid shadow-sm img-thumbnail"></a>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-        
             <div class="media mb-3">
                     <img src="img/avatar-dhg2.png" alt="img" width="45px" height="45px" class="rounded-circle mr-2">
                     <div class="media-body">
                             <p class="card-text text-justify">Breno Leal: Ta ficando Show!</p>
-
                     </div>
-
-
             </div>
-
-            
             <div class="media">
                     <img src="img/avatar-mdo.png" alt="img" width="45px" height="45px" class="rounded-circle mr-2">
                     <div class="media-body">
                             <p class="card-text text-justify">Augusto Mendes: Tem não.</p>
-
                     </div>
-
-
             </div>
-
-            
-            
-
-
-
+            <button type="button" class="btn btn-outline-primary heart float-right"><i class="fa fa-heart"></i> Curtir</button>
         </div>
         <small>5min</small>
-        
-
-
     </div>
-
-
-    
-
-
-
    </div>
-
-                            
-                             
  <hr>
-
 <div class="card-body">
 
     <div class="media">
             <img src="img/avatar-dhg2.png" alt="img" width="55px" height="55px" class="rounded-circle mr-3">
-
         <div class="media-body">
                 <h5>Breno Leal</h5>
                 <p class="text-justify">As vezes tento fugir de mim, mas a onde eu vou eu estou lá</p>
-
-
-
+                <button type="button" class="btn btn-outline-primary heart float-right"><i class="fa fa-heart"></i> Curtir</button>
         </div>
-
         <small>14 min</small>
-
     </div>
-
-
-
-
-
 </div>
 <hr>
 
 <div class="card-body">
-
     <div class="media">
-
             <img src="img/avatar-mdo.png" alt="img" width="55px" height="55px" class="rounded-circle mr-3">
             <div class="media-body">
                 <h5>Augusto Mendes</h5>
-                <p class="text-justify">Enquanto vocês estudam, eu to aqui curtindo uma praia!</p>
-             <a href="img/mid5.jpg" data-lightbox="id"><img src="img/mid5.jpg" alt="" class="img-fluid shadow-sm img-thumbnail">   </a>   
-
+                <p class="text-justify">Enquanto vocês estudam, eu tô aqui curtindo uma praia!</p>
+                <a href="img/mid5.jpg" data-lightbox="id"><img src="img/mid5.jpg" alt="" class="img-fluid shadow-sm img-thumbnail"></a>
+                <button type="button" class="btn btn-outline-primary heart float-right"><i class="fa fa-heart"></i> Curtir</button>
             </div>
-
-
             <small class="text-muted">10 min</small>
-
-
-
     </div>
-
-
-
-
 </div>
-
-
-
-
-
-                     
-                           
-
  </div>
-
-
-
-
-
-
-
-
-
  </div>
-
-
-
-
-
-
-
-
   </div>
-
-
-
-
-
-
-  
-
-
-
-
-
-
   <br> <br> <br><br> <br> <br>
-
-<!------------------------Middle column Ends---------------->
-
-
-
-
-
-
-
-
-<!---------------------------Statrs Right Columns----------------->
-
-
-                
 <div class="col-12 col-lg-3">
-
-
     <div class="right-column">
 
         <div class="card shadow-sm mb-4" >
@@ -553,7 +439,6 @@
             </div>
         </div>
     </div>
-
     <div class="card mb-3 shadow-sm">
         <div class="card-body">
             <h5 class="card-title">Pesquisas em Alta 🔥<small><a href="#"></a></small></h5>
@@ -572,99 +457,19 @@
             </ul>
         </div>
     </div>
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </div>
-
-
-
-
-
 </div>
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </div>
+    </div>
 <!------------------------Light BOx OPtions------------->
 <script>
-        lightbox.option({
-          
-        })
-    </script>
-
-
-
+    lightbox.option({})
+    $(document).ready(function() {
+        $(".heart").click(function() {
+            $(this).toggleClass("active");
+        });
+    });
+</script>
 <!------------------------Light BOx OPtions------------->
-
-
-
-
-
-
-
-
-
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
