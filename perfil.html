@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="style.css">
-    <title>Notificações</title>
+    <title>Perfil</title>
 </head>
 
 <body>
@@ -20,9 +20,9 @@
     <aside class="menu">
         <div class=" menu-content">
             <h1>
-                <a id="nome" href="#"">HIVE</a>
+                <a id="nome" href="#">HIVE</a>
             </h1>
-            <input type=" text" name="message" id="psq" placeholder="Encontrar">
+            <input type=" text" name="message" id="psq" placeholder="Pesquisar">
 
                     <nav>
                         <ul>
@@ -30,120 +30,244 @@
                             <li><a href="index.html">Timeline</a></li>
                             <li><a href="mensagens.html">Mensagens</a></li>
                             <li><a href="#modalview" data-toggle="modal">Notificações</a></li>
-                            <li><a href="#">Sair</a></li>
+                            <li><a href="#confirmModal" data-toggle="modal">Sair</a></li>
 
                         </ul>
                     </nav>
         </div>
+
     </aside>
+    <div class="modal fade" id="modalview">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title h4">Notificações</div>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-unstyled">
+                        <a href="#" class="text-decoration-none">
+                            <li class="media hover-media">
+                                <img src="img/elon-musk.jpg" alt="img" width="60px" height="60px" class="rounded-circle mr-3">
+                                <div class="media-body text-dark">
+                                    <h6 class="media-header">Claudio Ohana e <strong> 4 outros</strong></h6>
+                                    <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </li>
+                        </a>
+                        <hr class="my-3">
+                        <a href="#" class="text-decoration-none">
+                            <li class="media hover-media">
+                                <img src="img/avatar-dhg2.png" alt="img" width="60px" height="60px" class="rounded-circle mr-3">
+                                <div class="media-body text-dark">
+                                    <h6 class="media-header">Breno Leal e <strong> 2 outros</strong></h6>
+                                    <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </li>
+                        </a>
+
+                        <hr class="my-3">
+
+
+                        <a href="#" class="text-decoration-none">
+                            <li class="media hover-media">
+
+                                <img src="img/avatar-mdo.png" alt="img" width="60px" height="60px" class="rounded-circle mr-3">
+
+                                <div class="media-body text-dark">
+                                    <h6 class="media-header">Augusto Mendes e <strong> 5 outros</strong></h6>
+                                    <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                </div>
+
+                            </li>
+                        </a>
+
+                        <hr class="my-3">
+
+
+                        <a href="#" class="text-decoration-none">
+                            <li class="media hover-media">
+
+                                <img src="img/avatar-gus.png" alt="img" width="60px" height="60px" class="rounded-circle mr-3">
+
+                                <div class="media-body text-dark">
+                                    <h6 class="media-header">Claudio Ohana e <strong> 7 outros</strong></h6>
+                                    <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                </div>
+
+                            </li>
+                        </a>
+                        <hr class="my-3">
 
 
 
+                        <a href="#" class="text-decoration-none">
+                            <li class="media hover-media">
+
+                                <img src="img/avatar-dhg2.png" alt="img" width="60px" height="60px" class="rounded-circle mr-3">
+
+                                <div class="media-body text-dark">
+                                    <h6 class="media-header">Breno Leal e <strong> 3 outros</strong></h6>
+                                    <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                </div>
+
+                            </li>
+                        </a>
+
+
+                        <hr class="my-3">
+
+
+                        <a href="#" class="text-decoration-none">
+                            <li class="media hover-media">
+
+                                <img src="img/avatar-mdo.png" alt="img" width="60px" height="60px" class="rounded-circle mr-3">
+
+                                <div class="media-body text-dark">
+                                    <h6 class="media-header">Augusto Mendes e <strong> 5 outros</strong></h6>
+                                    <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                </div>
+
+                            </li>
+                        </a>
+
+
+                        <hr class="my-3">
+                        <a href="#" class="text-decoration-none">
+                            <li class="media hover-media">
+
+                                <img src="img/avatar-gus.png" alt="img" width="60px" height="60px" class="rounded-circle mr-3">
+
+                                <div class="media-body text-dark">
+                                    <h6 class="media-header">Claudio Ohana e <strong> 1 outro</strong></h6>
+                                    <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                </div>
+
+                            </li>
+                        </a>
+                        <hr class="my-3">
+
+
+
+                        <a href="#" class="text-decoration-none">
+                            <li class="media hover-media">
+
+                                <img src="img/avatar-dhg2.png" alt="img" width="60px" height="60px" class="rounded-circle mr-3">
+
+                                <div class="media-body text-dark">
+                                    <h6 class="media-header">Breno Leal e <strong> 3 outros</strong></h6>
+                                    <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                </div>
+
+                            </li>
+                        </a>
+
+
+                        <hr class="my-3">
+
+
+                        <a href="#" class="text-decoration-none">
+                            <li class="media hover-media">
+
+                                <img src="img/avatar-mdo.png" alt="img" width="60px" height="60px" class="rounded-circle mr-3">
+
+                                <div class="media-body text-dark">
+                                    <h6 class="media-header">Augusto Mendes e <strong> 5 outros</strong></h6>
+                                    <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                </div>
+
+                            </li>
+                        </a>
+
+
+
+
+                    </ul>
+
+
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
 
     <!------------------------------(Starts Column SEction)-------------------->
+    <div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="confirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmModalLabel">Confirmação</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Tem certeza de que deseja sair da sua conta?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <a href="#" class="btn btn-danger">Sair</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-    <div class="container mt-3">
+    <div class="container">
         <div class="row">
-
-
-
-
-            <!-----------------------------------------(Satrt Left Column)------------------------------->
-            <div id="corpo">
-                <div class="col-12 col-lg-6" id="central">
-                    <div class="middle-column" id="mid">
-                        <div class="card shadow-sm">
-                            <div class="card-header bg-transparent">
-                                <h4 class="card-title">
-                                    Perfil
-                                </h4>
-                            </div>
-
-
-
-                            <div class="media">
-
-                                <i class="fas fa-camera mx-2 mt-1"></i>
-
-                                <div class="media-body">
-                                    <nav> <img src="img/elon-musk.jpg" alt="" class="foto_perfil">
-                                        <h2> Renato Araújo </h2>
-                                    </nav>
-
-
-
-
-                                  
-
-                                </div>
-
-                            
-                               
-
-
-
-                            </div>
-                            <hr>
-
-                            <div id="coment"><strong><h4>Ultimos comentários de Renato </h4> </strong></div>
-                            <hr>
-                            <div class="media">
-                                <i class="fas fa-user-friends mx-2 mt-1"></i>
-                                <div class="media-body">
-                                    <p> <span class="h5 mr-2"> <a href="#" class="text-info"> Renato Araújo:
-                                            </a></span>Tô atrás de estágios</p>
-                                    <small class="mr-2 text-muted">8 min</small>
-                                </div>
-
-
-
-                            </div>
-                            <hr>
-                            <div class="media">
-                                <i class="fas fa-user-friends mx-2 mt-1"></i>
-                                <div class="media-body">
-                                    <p> <span class="h5 mr-2"> <a href="#" class="text-info"> Renato Araújo:
-                                            </a></span>Passei no Marcony</p>
-                                    <small class="mr-2 text-muted">17 min</small>
-                                    <div class="media">
-                                        <i class="fas fa-user-friends mx-2 mt-1"></i>
-                                        <div class="media-body">
-                                            <p> <span class="h5 mr-2"> <a href="#" class="text-info"> Marcony Maximo:
-                                                    </a></span>Como é amigo??</p>
-
-                                        </div>
-                                    </div>
-                                    <small class="mr-2 text-muted">12 min</small>
-
-
-                            </div>
-
-                            </div>
-                            <hr>
-                            <div class="media">
-                                <i class="fas fa-user-friends mx-2 mt-1"></i>
-                                <div class="media-body">
-                                    <p> <span class="h5 mr-2"> <a href="#" class="text-info"> Renato Araújo:
-                                            </a></span>Pedi nota pro Robson e ele me deu</p>
-                                    <small class="mr-2 text-muted">25 min</small>
-                                    <div class="media">
-                                        <i class="fas fa-user-friends mx-2 mt-1"></i>
-                                        <div class="media-body">
-                                            <p> <span class="h5 mr-2"> <a href="#" class="text-info"> Robson:
-                                                    </a></span>Larga de mulecagem</p>
-
-                                        </div>
-                                    </div>
-                                    <small class="mr-2 text-muted">15 min</small>
-                                </div>
-
-                            </div>
-
-
-                        </div>
+            <div class="col-md-4" id="central">
+                <div class="card">
+                    <img src="img/elon-musk.jpg" class="card-img-top" alt="Foto de Perfil">
+                    <div class="card-body">
+                        <h5 class="card-title">Renato Araújo</h5>
+                        <p class="card-text">Sou um cara perdido que as vezes tento uma parada que acaba dando errada, mas no fim todos nós temos um propósito.</p>
                     </div>
-                    <br> <br> <br>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Curso: TADS</li>
+                        <li class="list-group-item">Cidade: Barão</li>
+                        <li class="list-group-item">Seguidores: 35</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Editar Perfil</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8" id="mencoes">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sobre Mim</h5>
+                        <p class="card-text">Pae ta solteiro, ja manda aquela msg pra nós desenrolar uma coisinha</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Publicações Recentes</h5>
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">Quem foi nesse arraiá do IFPI?</h6>
+                                <p class="card-text">Ouvi dizer que flopou e tals pq eu nao escutei ngm falar nada</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">PASSEI NO RANGEL!!!!!</h6>
+                                <p class="card-text">moss, eu tava doido, porque eu achei que nem ia passar e tals, ta doido!</p>
+                            </div>
+                        </div>
+                        <!-- Adicione mais publicações conforme necessário -->
+                    </div>
                 </div>
             </div>
         </div>

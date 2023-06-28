@@ -26,7 +26,7 @@
                     <li><a href="#"id="mensagens_id">Timeline</a></li>
                     <li><a href="mensagens.html" >Mensagens</a></li>
                     <li><a href="#modalview" data-toggle="modal">Notificações</a></li>
-                    <li><a href="#">Sair</a></li>
+                    <li><a href="#confirmModal" data-toggle="modal">Sair</a></li>
 
                     </ul>
             </nav>
@@ -203,7 +203,25 @@
 
 </div>
     <!-------------------------------MOdal Ends---------------------------->
-
+    <div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="confirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmModalLabel">Confirmação</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Tem certeza de que deseja sair da sua conta?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <a href="#" class="btn btn-danger">Sair</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-------------------------------------------Start Grids layout for lg-xl-3 columns and (xs-lg 1 columns)--------------------------------->
@@ -225,7 +243,7 @@
                         <div class="card-body text-center ">
                             <img src="img/elon-musk.jpg" alt="img" width="120px" height="120px" class="rounded-circle mt-n5">
                             <h5 class="card-title">Renato Araújo</h5>
-                            <p class="card-text text-justify mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>
+                            <p class="card-text text-justify mb-2">Sou um cara perdido que as vezes tento uma parada que acaba dando errada, mas no fim todos nós temos um propósito.</p>
                             <ul class="list-unstyled nav justify-content-center">
                                <a href="#" class="text-dark text-decoration-none"> <li class="nav-item">Amigos <br> <strong>35</strong></li></a>
                             </ul>
@@ -347,28 +365,23 @@
 
         <div class="media-body">
             <h5>Renato Araújo</h5>
-            <p class="card-text text-justify">Gente, estou treinando uma edições de foto oq acharam?</p>
+            <p class="card-text text-justify">Pow é saindo aqui do IFPI e indo para o mercado de Fotografia, tenho futuro?</p>
 
            
 
             <div class="row no-gutters mb-3">
                 <div class="col-6 p-1 text-center">
 
-                        <img src="img/adventure-alps-clouds-2259810.jpg" alt="" class="img-fluid mb-2">
-                        <img src="img/aerial-view-architectural-design-buildings-2228123.jpg" alt="" class="img-fluid">
+                        <a href="img/mulher_praia.jpg" data-lightbox="id"><img src="img/mulher_praia.jpg" alt="" class="img-fluid shadow-sm img-thumbnail"></a>
+                        <a href="img/mulher-girassol.jpg" data-lightbox="id"><img src="img/mulher-girassol.jpg" alt="" class="img-fluid shadow-sm img-thumbnail"></a>
             
 
                 </div>
 
                 <div class="col-6 p-1 text-center">
-
-                        <img src="img/celebration-colored-smoke-dark-2297472.jpg" alt="" class="img-fluid mb-2">
-                        <img src="img/bodybuilding-exercise-fitness-2294361.jpg" alt=""class="img-fluid">
-            
-
+                    <a href="img/tumblrzinha.jpg" data-lightbox="id"><img src="img/tumblrzinha.jpg" alt="" class="img-fluid shadow-sm img-thumbnail"></a>
+                    <a href="img/cachorro_chupetao.jpg" data-lightbox="id"><img src="img/cachorro_chupetao.jpg" alt="" class="img-fluid shadow-sm img-thumbnail"></a>
                 </div>
-
-
             </div>
 
 
@@ -393,7 +406,7 @@
             <div class="media">
                     <img src="img/avatar-mdo.png" alt="img" width="45px" height="45px" class="rounded-circle mr-2">
                     <div class="media-body">
-                            <p class="card-text text-justify">Augusto Mendes: Ficou meio pá, mas eu curti tbm</p>
+                            <p class="card-text text-justify">Augusto Mendes: Tem não.</p>
 
                     </div>
 
@@ -454,7 +467,7 @@
             <img src="img/avatar-mdo.png" alt="img" width="55px" height="55px" class="rounded-circle mr-3">
             <div class="media-body">
                 <h5>Augusto Mendes</h5>
-                <p class="text-justify">Pai ta tumblr moss</p>
+                <p class="text-justify">Enquanto vocês estudam, eu to aqui curtindo uma praia!</p>
              <a href="img/mid5.jpg" data-lightbox="id"><img src="img/mid5.jpg" alt="" class="img-fluid shadow-sm img-thumbnail">   </a>   
 
             </div>
@@ -535,9 +548,28 @@
             <div class="card-body">
                 <h6 class="card-title">Anúncio</h6>
                 <img src="img/right1.jpg" alt="card-img" class="card-img mb-3">
-                <p class="card-text text-justify"> <span class="h6">Vendo brigadeiros deliciosos, que tal você experimentar?</p>
+                <span class="h6">Vendo brigadeiros deliciosos, que tal você experimentar?
                 <a href="#" class="btn btn-outline-info card-link btn-sm">Comprar</a>
             </div>
+        </div>
+    </div>
+
+    <div class="card mb-3 shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title">Pesquisas em Alta 🔥<small><a href="#"></a></small></h5>
+            <ul class="list-unstyled">
+                <li class="pb-2"> <a href="#" >Céu</a> </li>
+                <li class="pb-2"> <a href="#" >E aquela menina com aquele cara do curso...</a> </li>
+                <li class="pb-2"> <a href="#" >Chegando as Férias</a> </li>
+                <li class="pb-2"> <a href="#" >Um Clarão atrás da quadra de areia de vôlei</a> </li>
+                <li class="pb-2"> <a href="#" >Será que vai ter o que no INOVA?</a> </li>
+                <li class="pb-2"> <a href="#" >Professor do Médio</a> </li>
+                <li class="pb-2"> <a href="#" >Tô afim de uma pessoa do...</a> </li>
+                <li class="pb-2"> <a href="#" >Tinder: Versão IFPI</a> </li>
+                <li class="pb-2"> <a href="#" >Eu Já... Eu Nunca...</a> </li>
+                <li class="pb-2"> <a href="#" >Sem querer criar fofoca, mas...</a> </li>
+                <li class="pb-2"> <a href="#" >Volta CaisTech</a> </li>
+            </ul>
         </div>
     </div>
 
