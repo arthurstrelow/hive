@@ -12,8 +12,17 @@
       color: #292921;
       text-align: left;
   }
-  
 
+
+.dark-mode{
+    background-color: rgb(194, 194, 194);
+    border-bottom: 0.1rem solid rgb(148, 148, 148);
+    background-color: #424242;
+}
+
+.custom-bg{
+    background-color: rgba(0, 0, 0, 0.72);
+}
 
   .menu{
     z-index: 1;
@@ -215,9 +224,25 @@ margin-top: 14vh;
   }
 
 /*----------------------------------------------------------------------------------------------------------------------------*/
+.heart {
+    position: relative;
+}
 
+.animate {
+    animation: heart-beat 0.6s infinite;
+}
 
-
+@keyframes heart-beat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 
 
